@@ -1,0 +1,82 @@
+.nav-item > a:hover {
+	
+
+	background-color: white;
+	color:red !important;
+
+
+}
+.carousel-item > img {
+
+	height : 50vh;
+}
+.main-content{
+	min-height: calc(100vh - 25vh);
+}
+
+.footer{
+ background-color: #343a40;
+ bottom: 0;
+ height: 25%; 	
+}
+.footer div.company-portion a{
+	text-decoration: none;
+	transition: 0.8s;
+}
+.footer div.company-portion a:hover{
+	font-size:30px;
+}
+.footer div.company-portion span.company-name{
+	color: #ffffff;
+	padding-left: 25px;
+}
+
+.footer div.company-portion > p{
+	color: #ffffff;
+	/*padding-left: 25px;*/
+}
+.footer div.links-heading > h5{
+	color: #ffffff;
+	padding-left: 25px;
+}
+.footer ul.unstyle-list {
+   list-style-type: none;
+   transition: 0.8s;
+
+}
+.footer ul.unstyle-list a:hover{
+   margin-left: 5px;
+
+}
+.footer ul.unstyle-list a{
+   text-decoration: none;
+   color: #ffffff;
+   transition: 0.8s;
+
+}
+.footer ul.unstyle-list a:hover{
+   margin-left: 5px;
+
+}
+.footer ul.social-icon a{
+	font-size : 30px;
+	padding: 7px;
+	color: #ffffff;
+	transition: 0.9s;
+
+}
+	
+.footer ul.social-icon  a:hover{
+	font-size: 50px;
+    
+}
+
+.footer p.footer-link a
+{
+	color: white;
+	transition: 0.8s;
+}
+.footer p.footer-link a:hover
+{
+	font-size: 20px;
+}

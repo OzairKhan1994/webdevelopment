@@ -38,17 +38,35 @@
     // name = `${fname} ${lname}`;
     // console.log (name);
     // document.write (name);
-    var marks = 33 ; 
-     if (marks >= 33 )
+    var marks = 120; 
+     if(marks >= 33 && marks <= 39)
      {
-         console.log ("pass");
+         console.log ("Grade E");
      }
-     else
+     else if(marks >= 40 && marks <= 49)
      {
-          console.log ("fail") ;
+          console.log ("Grade D");
      }
- 	
-
+     else if(marks >= 50 && marks <= 59)
+     {
+          console.log ("Grade C");
+     } 
+     else if(marks >= 60 && marks <= 69)
+     {
+      console.log ("Grade B");
+     }
+     else if(marks >= 70 && marks <= 79)
+     {
+      console.log ("Grade A");
+     }
+     else if(marks >= 80 && marks <= 100)
+     {
+      console.log ("Grade A+");
+     }
+     else 
+     {
+      console.log ("Invalid");
+     }
  </script>
 </body>
 </html>

@@ -67,53 +67,84 @@
     //  {
     //   console.log ("Invalid");
     //  }
-    function add() {
-       var a= 10;
-       var b= 5;
-        var sum = a + b;
-       console.log("Addition ",sum); 
+    // function add() {
+    //    var a= 10;
+    //    var b= 5;
+    //     var sum = a + b;
+    //    console.log("Addition ",sum); 
+    //  }
+
+    //  function sub() {
+    //    var a= 10;
+    //    var b= 5;
+    //     var sum = a - b;
+    //    console.log("Subtract ",sum); 
+    //  }
+    //  function mul() {
+    //    var a= 10;
+    //    var b= 5;
+    //     var sum = a * b;
+    //    console.log("Multiply ",sum); 
+    //  }
+    //  function div() {
+    //    var a= 10;
+    //    var b= 5;
+    //     var sum = a / b;
+    //    console.log("divide ",sum); 
+    //  }
+    //  var option = "add";
+    //  switch (option){
+    //     case "add":
+    //     add();
+    //     break;
+
+    //     case "sub":
+    //     sub();
+    //     break;
+
+    //     case "mul":
+    //     mul();
+    //     break;
+
+    //     case "div":
+    //     div();
+    //     break;
+
+    //     default:
+    //     console.log("Invalid");
+
+    //  }
+        //  add(10,5);  
+        // function add(a,b) {
+        //     var sum = a + b;
+        //    console.log("Addition ",sum); 
+        //  }
+        //   min(10,5);  
+        // function min(a,b) {
+        //     var min = a - b;
+        //    console.log("Subtract ",min); 
+        //  }
+        //   mul(10,5);  
+        // function mul(a,b) {
+        //     var mul = a * b;
+        //    console.log("Multiply ",mul); 
+        //  }
+        //   div(10,5);  
+        // function div(a,b) {
+        //     var div = a / b;
+        //    console.log("divide ",div); 
+        //  }
+         //   add(100,200);
+         // function add(a=10,b=20) {
+         //    var add = a + b;
+         //   console.log("add ",add); 
+         // }
+         var fruits = ['apple','cherry','banana','mango'];
+     for (var i =0; i < fruits.length; i++) {
+        console.log(fruits[i]);
      }
 
-     function sub() {
-       var a= 10;
-       var b= 5;
-        var sum = a - b;
-       console.log("Subtract ",sum); 
-     }
-     function mul() {
-       var a= 10;
-       var b= 5;
-        var sum = a * b;
-       console.log("Multiply ",sum); 
-     }
-     function div() {
-       var a= 10;
-       var b= 5;
-        var sum = a / b;
-       console.log("divide ",sum); 
-     }
-     var option = "add";
-     switch (option){
-        case "add":
-        add();
-        break;
 
-        case "sub":
-        sub();
-        break;
-
-        case "mul":
-        mul();
-        break;
-
-        case "div":
-        div();
-        break;
-
-        default:
-        console.log("Invalid");
-
-     }
  </script>
 </body>
 </html>

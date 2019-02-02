@@ -22,7 +22,7 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="assets/img/slider5.jpg">
     	    	<div class="carousel-caption">
-    	<a href="assets/img/slider5.jpg" target="_blank"><h1>Click here to view on full screen</h1></a>	
+    	<h4>This is caption</h4>
     		
     	</div>
     </div>	

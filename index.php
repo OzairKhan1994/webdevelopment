@@ -3,41 +3,57 @@
 
    require_once('header.php');
  ?>
- 
- <?php
 
+ <!-- <?php
+           
    require_once('slider.php');
- ?>
+ ?> -->
 
-
+   <input  class="form-control test" type="text" name="test" id="id123" value="">
+   <button class="btn btn-primary submit"> submit </button>
 	
 
  <?php
 
    require_once('footer.php');
  ?>
+
  <script type="text/javascript">
- 	// var a = 10;
- 	// var b = 20 ;
- 	// var c = 30;
- 	// var d = a+b+c;
- 	// console.log (d);
- 	// document.write (d);
- 	// var d = a-b-c;
- 	// console.log (d);
- 	// document.write (d);
- 	// var d = a*b*c;
- 	// console.log (d);
- 	// document.write (d);
- 	// var d = a/b/c;
- 	// console.log (d);
- 	// document.write (d);
-    // var fname , lname,name;
-    // fname = 'john';
-    // lname = 'smith';
-    // name = `${fname} ${lname}`;
-    // console.log (name);
-    // document.write (name);
+    $(document).ready(function(){
+      $('.submit').click(function(){
+        var value = $('.test').attr('name1','test2');
+        $('.test').removeAttr('id');
+        console.log(value);
+      });
+    });     
+
+</script>
+
+
+     <!-- /*basic calculator*/
+    // var a = 10;
+    // var b = 20 ;
+    // var c = 30;
+    // var d = a+b+c;
+    // console.log (d);
+    // document.write (d);
+    // var d = a-b-c;
+    // console.log (d);
+    // document.write (d);
+    // var d = a*b*c;
+    // console.log (d);
+    // document.write (d);
+    // var d = a/b/c;
+    // console.log (d);
+    // document.write (d);
+      // var fname , lname,name;
+      // fname = 'john';
+      // lname = 'smith';
+      // name = `${fname} ${lname}`;
+      // console.log (name);
+      // document.write (name);
+      /*end*/
+      /*condition*/
     // var marks = 120; 
     //  if(marks >= 33 && marks <= 39)
     //  {
@@ -65,55 +81,120 @@
     //  }
     //  else 
     //  {
-    //   console.log ("Invalid");
+    //   console.log ("Invalid"); 
     //  }
-    // function add() {
-    //    var a= 10;
-    //    var b= 5;
-    //     var sum = a + b;
-    //    console.log("Addition ",sum); 
-    //  }
+          /*end*/
+          /*Switch case*/
+     // var option = 2 ;
+     // switch (option){
+     // case 1:
+     
+     //   console.log ("Inquiry");
+     //   break;
+     
+     // case 2:
+     
+     //   console.log ("With draw");
+     //   break;
+     
+     // case 3:
+     
+     //   console.log ("Transfer");
+     //   break;
+     
+     // case 4:
+     
+     //   console.log ("Exit");
+     //   break;
+     
+     //   default:
+       
+     //    console.log ("Invalid");
+     //   }
+           /*end*/
+           /*loops*/
+    // for (var i=1; i <= 10; i++) {
+    //   console.log("Answer ",i);
+    // }
+    // for (var i =10; i >= 1; i--) {
+    //   console.log("Answer ",i);
+    // }
 
-    //  function sub() {
-    //    var a= 10;
-    //    var b= 5;
-    //     var sum = a - b;
-    //    console.log("Subtract ",sum); 
-    //  }
-    //  function mul() {
-    //    var a= 10;
-    //    var b= 5;
-    //     var sum = a * b;
-    //    console.log("Multiply ",sum); 
-    //  }
-    //  function div() {
-    //    var a= 10;
-    //    var b= 5;
-    //     var sum = a / b;
-    //    console.log("divide ",sum); 
-    //  }
-    //  var option = "add";
-    //  switch (option){
-    //     case "add":
-    //     add();
-    //     break;
+    // var table = 2 ;
+    // for (var i=1; i <= 10; i++) {
+    //   console.log(table +'x' +i +'='+table*i);
+    // }
+     // var i = 10 ; 
+     // while (i >= 1)
+     // {
+     //  console.log(i);
+     //  i--;
+     // }
+     // var i = 1 ; 
+     // while (i <= 10)
+     // {
+     //  if (i %  2 == 0)
+     //  console.log("Even",i);
+     //  i++;
+     // }
+     // var i = 1 ; 
+     // while (i <= 10)
+     // {
+     //  if (i %  2 != 0)
+     //  console.log("Odd",i);
+     //  i++;
+     // }
+         /*end*/
+         /*function*/
+     // function add() {
+     //   var a= 10;
+     //   var b= 5;
+     //    var sum = a + b;
+     //   console.log("Addition ",sum); 
+     // }
 
-    //     case "sub":
-    //     sub();
-    //     break;
+     // function sub() {
+     //   var a= 10;
+     //   var b= 5;
+     //    var sum = a - b;
+     //   console.log("Subtract ",sum); 
+     // }
+     // function mul() {
+     //   var a= 10;
+     //   var b= 5;
+     //    var sum = a * b;
+     //   console.log("Multiply ",sum); 
+     // }
+     // function div() {
+     //   var a= 10;
+     //   var b= 5;
+     //    var sum = a / b;
+     //   console.log("divide ",sum); 
+     // }
+     // var option = "add";
+     // switch (option){
+     //    case "add":
+     //    add();
+     //    break;
 
-    //     case "mul":
-    //     mul();
-    //     break;
+     //    case "sub":
+     //    sub();
+     //    break;
 
-    //     case "div":
-    //     div();
-    //     break;
+     //    case "mul":
+     //    mul();
+     //    break;
 
-    //     default:
-    //     console.log("Invalid");
+     //    case "div":
+     //    div();
+     //    break;
 
-    //  }
+     //    default:
+     //    console.log("Invalid");
+
+     // }
+          /*end*/
+ 	      /*parameter*/
         //  add(10,5);  
         // function add(a,b) {
         //     var sum = a + b;
@@ -139,13 +220,16 @@
          //    var add = a + b;
          //   console.log("add ",add); 
          // }
-         var fruits = ['apple','cherry','banana','mango'];
-     for (var i =0; i < fruits.length; i++) {
-        console.log(fruits[i]);
-     }
+         /*end*/
+         /*index array*/
+     //     var fruits = ['apple','cherry','banana','mango'];
+     // for (var i =0; i < fruits.length; i++) {
+     //    console.log(fruits[i]);
+     // }
+            /*end*/
+ -->
 
-
- </script>
+ 
 </body>
 </html>
 

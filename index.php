@@ -8,8 +8,18 @@
            
    require_once('slider.php');
  ?> -->
-
-   <input  class="form-control test" type="text" name="test" id="id123" value="">
+   
+  
+   <p>Email</p>
+   <input  class="form-control test" type="text" name="test" id="email" value="">
+   <span class="email-error" style="display: none; color:red;" >
+    email is required </span>
+    <br>
+    <p>Password</p>
+   <input  class="form-control test" type="text" name="test" id="password" value="">
+   <span class="password-error" style="display: none; color:red;">password is required
+   </span> 
+   <br>
    <button class="btn btn-primary submit"> submit </button>
 	
 
@@ -18,7 +28,7 @@
    require_once('footer.php');
  ?>
 
- <script type="text/javascript">
+ <!-- <script type="text/javascript">
     $(document).ready(function(){
       $('.submit').click(function(){
         var value = $('.test').attr('name1','test2');
@@ -27,7 +37,43 @@
       });
     });     
 
-</script>
+</script> -->
+      <!-- <script type="text/javascript">
+          $(document).ready(function(){
+            $('.submit').click(function(){
+            $(this).text('Submitted');
+            })
+        }) 
+      </script> -->
+      <script type="text/javascript">
+          
+          $(document).ready(function(){
+          $('.submit').click(function(){  
+           var email = $('#email').val();
+          var password = $('#password').val();
+              if (email == '')
+              {
+               $('.email-error').show();
+              } else
+              {
+                
+                $('.email-error').hide();
+               
+              }
+             if (password == '')
+              {
+                 $('.password-error').show();
+              }
+              else
+              {
+                
+                $('.password-error').hide();
+               
+              }
+
+          })
+          })
+      </script>
 
 
      <!-- /*basic calculator*/

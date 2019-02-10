@@ -70,6 +70,8 @@
                 $('.password-error').hide();
                
               }
+              console.log(email);
+              console.log(password);
 
           })
           })

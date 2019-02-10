@@ -58,10 +58,10 @@
         <a href=""><i class="fab fa-facebook-messenger"></i></a>
       </li>
       <li class="list-inline-item"> 
-        <a href=""><i class="fab fa-instagram"></i></a>
+        <a  href=""><i class="fab fa-instagram"></i></a>
       </li>
       <li class="list-inline-item"> 
-         <a href=""><i class="fab fa-snapchat"></i></a>
+         <a  href=""><i class="fab fa-snapchat"></i></a>
       </li class="list-inline-item">
    </div>
    

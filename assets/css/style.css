@@ -88,3 +88,44 @@
 {
 	font-size: 20px;
 }
+}
+ .login-heading{
+ 	color: green;
+ 	text-align: center;
+ }
+ .email-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .password-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .user-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .confirm-password-error{
+ 	color: red;
+ 	font-weight: bold;
+ 	float: right;
+ 	display: none;
+ }
+ .login-container{
+ 	margin-top: 10%;
+ }
+ .login-submit{
+
+ }
+ .error{
+ 	border: 1px solid red !important;
+ }
+ .success{
+ 	border: 1px solid green !important;
+ }

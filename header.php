@@ -35,30 +35,20 @@
   	</ul>
   	<ul class="navbar-nav justify-content-end w-100">
   		<li class="nav-item">
-  		<a href="" class="nav-link">Sign Up</a> </li>
+  		<a href="signup.php" class="nav-link">Sign Up</a> </li>
   		<li class="nav-item">
-  		<a href="" class="nav-link" data-toggle="modal" data-target="#login"  data-backdrop="static" keyboard="false">Login</a>
+  		<a href="login.php" class="nav-link">Login</a>
   		 </li>
   	</ul>
   </div>
  </nav>
-<div class="modal fade" tabindex="-1" id="login">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>Log In</h4>
-        <button type="button" class="close" data-dismiss="modal"> &times;</button>
-      </div>
-      <div class="modal-body">
-        <label>Email</label>
-        <input type="text" name="email" class="form-control">
-         <label>password</label>
-        <input type="password" name="password" class="form-control">
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-success">Submit</button>
-        <button class="btn btn-danger" data-dismiss= "modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+<?php
+   $i=1;
+   $table = 5;
+   do{
+     echo $table.' x '.$i.' = '.$table*$i."<br>";
+     $i++; 
+   }
+   while ($i <= 10)
+?>  

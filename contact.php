@@ -2,7 +2,8 @@
 
    require_once ('header.php');
  ?>
- <h1 class="text-center">CONTACT US</h1>
+ 
+ <h1 class="text-center ">CONTACT US</h1>
  <p class="text-center">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
  <div class="container">
    <div class="row">

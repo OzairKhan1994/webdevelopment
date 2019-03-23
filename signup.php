@@ -13,10 +13,22 @@
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
 </head>
 <body>
+	<?php require_once 'auth-header.php'?>
 		<div class="container login-container">
 			<div class="row">
 				<div class="offset-md-4 col-md-4">
+					<?php
+					session_start();
+					if(isset ($_SESSION['success']) && $_SESSION['success'] == true) {?>
+						<div class="alert alert-success alert-dismissible fade show" role="alert">
+								  <strong>Success</strong> <?php echo $_SESSION['message'] ;?>
+								  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								    <span aria-hidden="true">&times;</span>
+								  </button>
+								</div>
+				<?php	}  ?>
 					<h4 class="login-heading"> Sign Up </h4>
+					<form action="logic.php" method="post">
 					<div class="form-group">
 						<label>User Name</label>
 						<input class="form-control" type="text" name="name">
@@ -41,8 +53,9 @@
 						<span class="confirm-password-error">Please Enter password as above</span>
 					</div>
 					<div class="form-group">
-						<button class="btn btn-success btn-block login-submit float-left"> Submit</button>
+						<button name="signup_submit" class="btn btn-success btn-block login-submit float-left"> Submit</button>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>

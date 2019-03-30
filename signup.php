@@ -26,30 +26,43 @@
 								    <span aria-hidden="true">&times;</span>
 								  </button>
 								</div>
-				<?php	}  ?>
+								<?php
+								$_SESSION['success'] = false;
+								?>
+				<?php	} else if(isset ($_SESSION['error']) && $_SESSION['error'] == true) { ?>
+					<div class="alert alert-success alert-dismissible fade show" role="alert">
+								  <strong>Success</strong> <?php echo $_SESSION['message'] ;?>
+								  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								    <span aria-hidden="true">&times;</span>
+								  </button>
+								</div>
+								<?php
+								$_SESSION['success'] = false;
+								?>
+							<?php } ?>
 					<h4 class="login-heading"> Sign Up </h4>
 					<form action="logic.php" method="post">
 					<div class="form-group">
 						<label>User Name</label>
-						<input class="form-control" type="text" name="name">
+						<input class="form-control" type="text" name="name" required>
 						<span class="user-error">User Name is required</span>
 					</div>
 
 					<div class="form-group">
 						<label>Email</label>
-						<input class="form-control" type="email" id="email" name="email">
+						<input class="form-control" type="email" id="email" name="email" required>
 						<span class="email-error">Email is required</span>
 					</div>
 
 					<div class="form-group">
 						<label>Password</label>
-						<input class="form-control" type="password" id="password" name="password">
+						<input class="form-control" type="password" id="password" name="password" required>
 						<span class="password-error">Password is required</span>
 					</div>
 
 					<div class="form-group">
 						<label>Confirm Password</label>
-						<input class="form-control" type="password" id="confirm_password" name="confirm_password">
+						<input class="form-control" type="password" id="confirm_password" name="confirm_password" required>
 						<span class="confirm-password-error">Please Enter password as above</span>
 					</div>
 					<div class="form-group">

@@ -5,7 +5,7 @@
   	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 company-portion">
       <h5>
         <a href="index.php">
-      <img src="assets/img/logo1.png" class="img-fluid" height="70" width="70"> <span class="company-name">LOGO</span>  
+      <img src="assets/img/img.png" class="img-fluid" height="70" width="70"> <span class="company-name">MUHAMMAD OZAIR KHAN</span>  
       </a>
   		</h5>
   		<p>Our Company dummy data</p>
@@ -55,7 +55,7 @@
         <a href=""><i class="fab fa-facebook-square"></i></a>
       </li>
       <li class="list-inline-item"> 
-        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
       </li>
       <li class="list-inline-item"> 
         <a  href=""><i class="fab fa-instagram"></i></a>

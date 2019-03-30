@@ -5,7 +5,7 @@ error_reporting(0);
 <html>
 <head>
   <title>UI Learning</title>
-  <meta charset="utf-8" name = "vie-port" content="width=device-width">
+  <meta charset="utf-8" name = "view-port" content="width=device-width">
 
   
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -22,15 +22,14 @@ error_reporting(0);
 <body>
   <div class="main-content">
     <nav class="navbar navbar-expand-lg rounded bg-dark navbar-dark navbar-fixed-top">
-    <a href="index.php" class="navbar-brand"> <img src="assets/img/logo1.jpg" class="img-fluid"width="65">UI LEARNING</a>
+    <a href="index.php" class="navbar-brand"> <img src="assets/img/img.png" class="img-fluid"width="65">M.O.K</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-id" aria-controls="navbar-id" aria-expanded="false" aria-lable="toggle-navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-id">
       <ul class="navbar-nav mr-auto justify-content-center w-100">
         <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.php">services</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="portfolio.php">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         

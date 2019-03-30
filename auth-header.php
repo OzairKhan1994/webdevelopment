@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>UI Learning</title>
-	<meta charset="utf-8" name = "vie-port" content="width=device-width">
+	<meta charset="utf-8" name = "view-port" content="width=device-width">
 
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -19,7 +19,7 @@
 <body>
 	<div class="main-content">
 		<nav class="navbar navbar-expand-lg rounded bg-dark navbar-dark navbar-fixed-top">
-		<a href="index.php" class="navbar-brand"> <img src="assets/img/logo1.jpg" class="img-fluid"width="65">UI LEARNING</a>
+		<a href="index.php" class="navbar-brand"> <img src="assets/img/img.png" class="img-fluid"width="65">M.O.K</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-id" aria-controls="navbar-id" aria-expanded="false" aria-lable="toggle-navigation">
 		<span class="navbar-toggler-icon"></span>
 		</button>

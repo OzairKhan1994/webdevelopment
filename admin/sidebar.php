@@ -33,7 +33,7 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li class="active">
-                            <a href="index.html">
+                           <a href="<?php echo $_SESSION['base_url']?>index.php"> 
                                 <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                             </a>
                         </li>
@@ -45,12 +45,12 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
-                                    <a href="pages/charts/morris.html">
+                                    <a href="<?php echo $_SESSION['base_url']?>category/list.php">
                                         <i class="fa fa-list"></i> List
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="pages/charts/inline.html">
+                                    <a href="<?php echo $_SESSION['base_url']?>category/add.php">
                                         <i class="fa fa-plus"></i>Add
                                     </a>
                                 </li>
